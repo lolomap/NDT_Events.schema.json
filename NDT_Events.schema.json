@@ -87,7 +87,7 @@
 			"TurnPosition": {"type": "integer"},
 			"TLDR": {
 				"type": "array",
-				"items": { "$ref": "#" }
+				"items": { "$ref": "#/items" }
 			}
 		},
 		"required": ["Description"]
