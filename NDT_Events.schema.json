@@ -25,7 +25,26 @@
 							"items": {
 								"type": "object",
 								"properties": {
-									"Type": {"type": "string"},
+									"Type": {
+										"enum": [
+											"NationalistsLoyalty",
+											"NationalistsPower",
+											"DemocratsLoyalty",
+											"DemocratsPower",
+											"FederationistsLoyalty",
+											"FederationistsPower",
+											"NeutralLoyalty",
+											"Power",
+											"Treasury",
+											"EconomicPower",
+											"MilitaryPower",
+											"ExtremismLevel",
+											"RelationsUCB",
+											"RelationsSBU",
+											"RelationsIID",
+											"RelationsEIK"
+										]
+									},
 									"Value": {"type": "number"},
 									"Limit": {
 										"type": "object",
