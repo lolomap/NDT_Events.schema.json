@@ -80,6 +80,7 @@
 									"Comparison": {"enum": [ "Gt", "Lt", "GtE", "LtE", "Eq", "Exists" ]}
 								},
 								"required": [ "Type" ]
+								"additionalProperties": false
 							}
 						}
 					},
