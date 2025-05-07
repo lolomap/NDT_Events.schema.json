@@ -53,7 +53,8 @@
 											"CompareTo": {"type": "number"},
 											"Comparison": {"enum": [ "Gt", "Lt", "GtE", "LtE", "Eq", "Exists" ]}
 										},
-										"required": [ "Type" ]
+										"required": [ "Type" ],
+										"additionalProperties": false
 									}
 								},
 								"required": [ "Type", "Value" ]
@@ -79,7 +80,7 @@
 									"CompareTo": {"type": "number"},
 									"Comparison": {"enum": [ "Gt", "Lt", "GtE", "LtE", "Eq", "Exists" ]}
 								},
-								"required": [ "Type" ]
+								"required": [ "Type" ],
 								"additionalProperties": false
 							}
 						}
@@ -101,7 +102,8 @@
 						"CompareTo": {"type": "number"},
 						"Comparison": {"enum": [ "Gt", "Lt", "GtE", "LtE", "Eq", "Exists" ]}
 					},
-					"required": [ "Type" ]
+					"required": [ "Type" ],
+					"additionalProperties": false
 				}
 			},
 			"TurnPosition": {"type": "integer"},
